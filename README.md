@@ -1,5 +1,5 @@
 # Page-Of-Pixels
-Welcome to the Page Of Pixels Landing Page project! This project is a simple webpage designed for showcasing a photographer's work. It's built using HTML and CSS.
+Welcome to the Page Of Pixels Landing Page project! This project is a simple webpage designed for showcasing a photographer's work. It is built using HTML and CSS.
 
 ## Features
 - Clean and responsive design.
