@@ -1,45 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Example Landing Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
+
 <body>
     <!-- Header Section Start -->
-    <header>
-        <nav>
-            <div class="logo">
-                <h1 class="logo">POP</h1>
-            </div>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Experience</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Services</a></li>
-            </ul>
-        </nav>
-        <section class="header-section">
-            <section class="content-section">
-                <h1 class="main-headings">PAGE <br>OF PIXELS</h1>
-                <p class="sub-headings">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat omnis asperiores ipsam ullam libero amet, incidunt consectetur </p>
-                <button class="main-btn">Learn More</button>
+    <section id="home">
+        <header>
+            <nav>
+                <div class="logo">
+                    <h1 class="logo">POP</h1>
+                </div>
+                <div class="hamburger-menu">
+                    <div class="hamburger-icon"></div>
+                    <div class="hamburger-icon"></div>
+                    <!-- <i class="fas fa-hamburger"></i> -->
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                </ul>
+            </nav>
+            <section class="header-section">
+                <section class="content-section">
+                    <h1 class="main-headings">PAGE <br>OF PIXELS</h1>
+                    <p class="sub-headings">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat omnis
+                        asperiores ipsam ullam libero amet, incidunt consectetur </p>
+                    <button class="main-btn">Learn More</button>
+                </section>
+                <section class="img-section">
+                    <img src="images/pexels-photo-1136575.jpeg" class="header-img img-one">
+                    <img src="images/pexels-photo-556669.webp" class="header-img img-two">
+                </section>
             </section>
-            <section class="img-section">
-                <img src="images/pexels-photo-1136575.jpeg" class="header-img img-one">
-                <img src="images/pexels-photo-556669.webp" class="header-img img-two">
-            </section>
-        </section>
-    </header>
-    <!-- Header Section Start -->
+        </header>
+    </section>
+    <!-- Header Section End -->
 
     <!-- Experience Section Start -->
-    <section class="experience">
+    <section id="experience">
         <div class="experience-content-section">
-            <h2 class="gray-heading">30 Years</h2>
+            <h2 class="gray-heading">21 Years</h2>
             <h1 class="main-headings experience-headings">EXPERIENCE</h1>
-            <p class="sub-headings experience-sub-headings">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat omnis asperiores ipsam ullam libero amet, incidunt consectetur </p>
+            <p class="sub-headings experience-sub-headings">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quaerat omnis asperiores ipsam ullam libero amet, incidunt consectetur </p>
             <button class="main-btn">Learn More</button>
         </div>
         <div class="experience-img-section">
@@ -56,6 +68,11 @@
             <li class="list-items"><a href="">INSTAGRAM</a></li>
             <li class="list-items"><a href="">FACEBOOK</a></li>
             <li class="list-items"><a href="">TWITTER</a></li>
+            <select id="select-color">
+                <option value="skyblue">Sky Blue</option>
+                <option value="red">Red</option>
+                <option value="blueviolet">Blueviolet</option>
+            </select>
         </ul>
     </section>
     <!-- Social Media Section End -->
@@ -65,14 +82,16 @@
         <div class="hero-img-section"></div>
         <div class="hero-content-section">
             <h1 class="main-headings hero-headings">Meet <br>Our Award<br>Winning Picture</h1>
-            <p class="sub-headings hero-sub-headings">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam numquam exercitationem doloribus earum nostrum sint eum hic molestiae nobis alias. </p>
+            <p class="sub-headings hero-sub-headings">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita
+                libero repudiandae est ratione eligendi, similique consequatur voluptate ut amet ipsa ullam in
+                asperiores aperiam assumenda. Velit, aliquam! Soluta, maxime beatae!</p>
             <button class="main-btn">Learn More</button>
         </div>
     </section>
     <!-- Hero Section End -->
 
     <!-- Services Section Start -->
-    <section class="services">
+    <section id="services">
         <h2 class="gray-heading">Top Quality</h2>
         <h1 class="main-headings services-headings">SERVICES</h1>
 
@@ -81,7 +100,8 @@
                 <div class="card-img img-one"></div>
                 <div class="card-content">
                     <h1 class="card-title">Portrait Photography</h1>
-                    <p class="card-info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt accusamus, totam ipsum</p>
+                    <p class="card-info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt accusamus, totam
+                        ipsum</p>
                     <button class="main-btn service-btn">Learn More</button>
                 </div>
             </div>
@@ -89,7 +109,8 @@
                 <div class="card-img img-two"></div>
                 <div class="card-content">
                     <h1 class="card-title">Event Photography</h1>
-                    <p class="card-info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt accusamus, totam ipsum</p>
+                    <p class="card-info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt accusamus, totam
+                        ipsum</p>
                     <button class="main-btn service-btn">Learn More</button>
                 </div>
             </div>
@@ -97,7 +118,8 @@
                 <div class="card-img img-three"></div>
                 <div class="card-content">
                     <h1 class="card-title">Lifestyle Photography</h1>
-                    <p class="card-info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt accusamus, totam ipsum</p>
+                    <p class="card-info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt accusamus, totam
+                        ipsum</p>
                     <button class="main-btn service-btn">Learn More</button>
                 </div>
             </div>
@@ -106,7 +128,7 @@
     <!-- Service Section End -->
 
     <!-- Footer Section Start -->
-    <footer>
+    <footer id="about">
         <div class="footer-card">
             <h1 class="footer-headline">About</h1>
             <p class="footer-info">General</p>
@@ -127,5 +149,7 @@
         </div>
     </footer>
     <!-- Footer Section End -->
+    <script src="script.js"></script>
 </body>
+
 </html>
